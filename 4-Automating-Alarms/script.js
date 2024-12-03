@@ -6,7 +6,6 @@ function createAlarms(startTime) {
 
   for (let i = 0; i < 10; i++) {
     timers.push(hour + ":" + min);
-    console.log(timers);
 
     if (min == "45") {
       min = "00";
